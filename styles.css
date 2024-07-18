@@ -46,7 +46,7 @@ header {
 
 h1 {
     text-align: center;
-    margin: 6rem 4rem 0;
+    margin: 5rem 3rem 0;
     padding: 3rem;
     font-size: 4rem;
     color: #e0e1dd;
@@ -56,7 +56,7 @@ h1 {
 
 .intro {
     display: flex;
-    padding: 4rem 2rem;
+    padding: 5rem 6rem;
 }
 
 .clock {
@@ -74,7 +74,7 @@ h1 {
 
 .main-panel {
     display: flex;
-    padding-bottom: 4rem;
+    padding: 4rem 0 6rem;
     font-size: 1.6rem;
 }
 
@@ -116,7 +116,7 @@ h1 {
     color: #293241;
 }
 
-.flyover-video-link:hover {
+.flyover-link:hover {
     color: #4a7856;
 }
 
