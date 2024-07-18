@@ -44,9 +44,19 @@ header {
 
 /* Main section */
 
+h1 {
+    text-align: center;
+    margin: 6rem 4rem 0;
+    padding: 3rem;
+    font-size: 4rem;
+    color: #e0e1dd;
+    background-color: #293241;
+    border: 2px solid #293241;
+}
+
 .intro {
     display: flex;
-    padding: 8rem 5rem;
+    padding: 4rem 2rem;
 }
 
 .clock {
@@ -58,22 +68,14 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 4rem;
+    margin-left: 2rem;
     color: #293241;
-}
-
-.welcome-intro h1 {
-    margin: 0;
-    padding: 4rem;
-    font-size: 4rem;
-    color: #e0e1dd;
-    background-color: #293241;
-    border: 2px solid #293241;
 }
 
 .main-panel {
     display: flex;
-    padding: 5rem 0;
+    padding-bottom: 4rem;
+    /* padding: 3rem 0; */
     font-size: 1.6rem;
 }
 
