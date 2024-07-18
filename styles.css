@@ -39,7 +39,7 @@ header {
 }
 
 .navlist a:hover {
-    color: #71b2d8;
+    color: #4a7856;
 }
 
 /* Main section */
@@ -75,7 +75,6 @@ h1 {
 .main-panel {
     display: flex;
     padding-bottom: 4rem;
-    /* padding: 3rem 0; */
     font-size: 1.6rem;
 }
 
@@ -118,7 +117,7 @@ h1 {
 }
 
 .flyover-video-link:hover {
-    color: #71b2d8;
+    color: #4a7856;
 }
 
 /* Footer section */
