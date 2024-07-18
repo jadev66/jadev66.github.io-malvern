@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville' Georgia, serif;
+    background-color: #e0e1dd;
+    box-sizing: border-box;
+}
+
+/* Header section */
+
+header {
+    background-color: #293241;
+}
+
+.stretch-top {
+    width: 100%;
+    height: 42rem;
+}
+
+.navbar {
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 1.8rem;
+    background-color: #293241;
+}
+
+.navlist {
+    padding: 0;
+}
+
+.navlist li {
+    display: inline;
+    padding: 0.5rem 4rem;
+    color: #e0e1dd;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #e0e1dd;
+}
+
+.navlist a:hover {
+    color: #71b2d8;
+}
+
+/* Main section */
+
+.intro {
+    display: flex;
+    padding: 8rem 5rem;
+}
+
+.clock {
+    width: 26rem;
+    border-radius: 0.1rem;
+}
+
+.welcome-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 4rem;
+    color: #293241;
+}
+
+.welcome-intro h1 {
+    margin: 0;
+    padding: 4rem;
+    font-size: 4rem;
+    color: #e0e1dd;
+    background-color: #293241;
+    border: 2px solid #293241;
+}
+
+.main-panel {
+    display: flex;
+    padding: 5rem 0;
+    font-size: 1.6rem;
+}
+
+.intro-paragraphs {
+    width: 90%;
+    margin-left: 2rem;
+}
+
+.intro-paragraphs p {
+    text-align: start;
+}
+
+.bold-intro {    
+    font-weight: 700;
+}
+
+.discover {
+    font-size: 1.8rem;
+}
+
+.tomorrow {
+    margin-left: 4rem;
+}
+
+.tomorrow a {
+    display: none;
+}
+
+.flyover-video img {
+    width: 40rem;
+    height: 20rem;
+}
+
+.flyover-link {
+    text-transform: uppercase;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #293241;
+}
+
+.flyover-video-link:hover {
+    color: #71b2d8;
+}
+
+/* Footer section */
+
+footer {
+    position: relative;
+    text-align: center;
+    color: #e0e1dd;
+    background-color: #000;
+}
+
+.stretch-bottom {
+    width: 100%;
+    height: 36rem;
+}
+
+.nametag-main {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    opacity: 0.6;
+}
+
+/* Sub-pages */
+
+/* .sub-footer {
+    background-color: #293241;
+} */
+
+
+/* Resizing */
+
+@media (max-width: 1599px) {
+
+    .stretch-top {
+        height: 30rem;
+    }
+
+    .navbar {
+        font-size: 1.5rem;
+    }
+
+    .navlist li {
+        padding: 0.5rem 3rem;
+    }
+
+    .intro {
+        padding: 5rem 3rem;
+    }
+
+    .clock {
+        width: 20rem;
+    }
+
+    .welcome-intro {
+        margin-left: 3rem;
+    }
+
+    .welcome-intro h1 {
+        padding: 3rem;
+        font-size: 3rem;
+    }
+
+    .main-panel {
+        padding: 3rem 0;
+        font-size: 1.4rem;
+    }
+
+    .intro-paragraphs {
+        margin-left: 1rem;
+    }
+
+    .discover {
+        font-size: 1.6rem;
+    }
+
+    .tomorrow {
+        margin-left: 2rem;
+    }
+
+    .flyover-video img {
+        width: 30rem;
+        height: 15rem;
+    }
+
+    .flyover-link {
+        font-size: 1rem;
+    }
+
+    .stretch-bottom {
+        height: 26rem;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .stretch-top {
+        height: 24rem;
+    }
+
+    .navbar {
+        font-size: 1.2rem;
+    }
+
+    .navlist li {
+        padding: 0.5rem 2rem;
+    }
+
+    .intro {
+        padding: 2rem 1rem;
+    }
+
+    .clock {
+        width: 14rem;
+    }
+
+    .welcome-intro {
+        margin-left: 1rem;
+    }
+
+    .welcome-intro h1 {
+        padding: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .main-panel {
+        padding: 2rem 0;
+        font-size: 1.2rem;
+    }
+
+    .intro-paragraphs {
+        margin-left: 1rem;
+    }
+
+    .discover {
+        font-size: 1.4rem;
+    }
+
+    .tomorrow {
+        margin-left: 1rem;
+    }
+
+    .stretch-bottom {
+        height: 22rem;
+    }
+
+    .nametag-main {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 899px) {
+
+    .stretch-top {
+        height: 18rem;
+    }
+
+    .navbar {
+        font-size: 1rem;
+    }
+
+    .navlist li {
+        padding: 0.5rem 1rem;
+    }
+
+    .intro {
+        padding: 2rem 1.5rem;
+    }
+
+    .clock {
+        display: none;
+    }
+
+    .welcome-intro {
+        margin-left: 0;
+    }
+
+    .welcome-intro h1 {
+        font-size: 2rem;
+    }
+
+    .intro-paragraphs {
+        margin-left: 0;
+    }
+
+    .tomorrow {
+        max-width: 180px;
+        margin-left: 0.5rem;
+    }
+
+    .stretch-bottom {
+        height: 16rem;
+    }
+    
+    .nametag-main {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 599px) {
+
+    .stretch-top {
+        height: 12rem;
+    }
+
+    .navbar {
+        font-size: 1rem;
+    }
+
+    .navlist li {
+        padding: 0.6rem;
+    }
+
+    .intro {
+        padding: 2rem 1rem;
+    }
+
+    .welcome-intro {
+        margin-left: 0;
+    }
+
+    .welcome-intro h1 {
+        font-size: 1.6rem;
+    }
+
+    .main-panel {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .intro-paragraphs {
+        width: 100%;
+    }
+
+    .discover {
+        font-size: 1.2rem;
+    }
+
+    .tomorrow {
+        display: none;
+    }
+
+    .flyover-video img {
+        width: 15rem;
+        height: 8rem;
+    }
+
+    .flyover-link {
+        font-size: 0.6rem;
+    }
+
+    .stretch-bottom {
+        height: 10rem;
+    }
+
+    .nametag-main {
+        font-size: 0.5rem;
+    }
+}

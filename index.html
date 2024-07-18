@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Malvern Borough</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/Malvern 2.jpg" class="stretch-top" alt="Drone view of Malvern Borough">
+        <nav class="navbar">
+            <ul class="navlist">
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="shops.html">Shops</a></li>
+                <li><a href="parks.html">Parks</a></li>
+                <li><a href="churches.html">Churches</a></li>
+                <li><a href="schools.html">Schools</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <img src="images/clock.jpg" alt="Standing post clock" class="clock">
+            <div class="welcome-intro">
+                <h1>Welcome to Malvern Borough</h1>
+                <div class="main-panel">
+                    
+                    <div class="intro-paragraphs">
+                        <p><span class="bold-intro discover">Discover the Charm of Malvern, PA</span></p>
+                        <p>Welcome to Malvern, Pennsylvania, where history, culture, and modern amenities blend seamlessly to create an unforgettable experience. Nestled in the heart of Chester County, just a short drive from Philadelphia, Malvern offers a unique escape with something for everyone.</p>
+                        <p><span class="bold-intro">Explore History:</span> Step back in time and visit the Paoli Battlefield Historical Park, where you can walk the grounds of a pivotal Revolutionary War site. Discover local history at the Malvern Historical Society and enjoy a stroll through our charming, historic downtown.</p>
+                        <p><span class="bold-intro">Embrace Nature:</span> Malvern boasts beautiful parks and trails, perfect for outdoor enthusiasts. Enjoy a peaceful day at the picturesque Sugartown Preserve or take a hike through the serene beauty of Valley Creek Park. Don&apos;t miss the Great Valley Nature Center, where you can immerse yourself in the natural wonders of the region.</p>
+                        <p><span class="bold-intro">Shop & Dine:</span> Indulge in a delightful shopping and dining experience in Malvern&apos;s vibrant downtown. Browse unique boutiques, artisanal shops, and antique stores. Savor a meal at one of our many acclaimed restaurants, offering everything from farm-to-table cuisine to international flavors.</p>
+                        <p><span class="bold-intro">Events & Festivals:</span> Experience the community spirit of Malvern through our year-round events and festivals. From the annual Malvern Blooms Festival to summer concerts in the park, there&apos;s always something happening to bring people together.</p>
+                        <p><span class="bold-intro">Stay & Relax:</span> After a day of exploration, unwind in one of Malvern&apos;s charming bed and breakfasts or modern hotels. Enjoy the warm hospitality and comfort that make our town feel like home.</p>
+                        <p><span class="bold-intro">Visit Malvern, PA &dash; Where History and Modern Life Meet</span></p>
+                        <p>Discover this hidden gem of Chester County. Plan your visit today and experience the charm, beauty, and excitement of Malvern, PA. Your adventure awaits!</p>
+                    </div>
+
+                    <!-- Weather widget from tomorrow.io -->
+                    
+                    <div class="tomorrow"
+                        data-location-id="121073"
+                        data-language="EN"
+                        data-unit-system="IMPERIAL"
+                        data-skin="dark"
+                        data-widget-type="upcoming"
+                        style="padding-bottom:22px;position:relative;"
+                    >
+                        <a
+                        href="https://www.tomorrow.io/weather-api/"
+                        rel="nofollow noopener noreferrer"
+                        target="_blank"
+                        style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                        >
+                        <img
+                            alt="Powered by the Tomorrow.io Weather API"
+                            src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                            width="250"
+                            height="18"
+                        />
+                        </a>
+                    </div>
+
+                </div>
+                <div class="flyover-video-link">
+                    <a href="videos/King St Flyover.mp4" target="_blank" class="flyover-video">
+                        <img src="images/title.jpg" alt="Image preview for video of Malvern Borough">
+                    </a>
+                </div>
+                <a href="videos/King St Flyover.mp4" target="_blank" class="flyover-link">Click here to view Malvern Borough from above</a>
+        </section>
+    </main>
+
+    <footer>
+        <img src="images/night.JPG" alt="Eastside Flats area at night" class="stretch-bottom">
+        <p class="nametag-main">&copy 2024 Jami Vaughn</p>
+    </footer>
+
+        <script>
+            (function(d, s, id) {
+                if (d.getElementById(id)) {
+                    if (window.__TOMORROW__) {
+                        window.__TOMORROW__.renderWidget();
+                    }
+                    return;
+                }
+                const fjs = d.getElementsByTagName(s)[0];
+                const js = d.createElement(s);
+                js.id = id;
+                js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+                fjs.parentNode.insertBefore(js, fjs);
+            })(document, 'script', 'tomorrow-sdk');
+        </script>
+
+</body>
+</html>
