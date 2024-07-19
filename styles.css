@@ -30,7 +30,6 @@ header {
 .navlist li {
     display: inline;
     padding: 0.5rem 4rem;
-    color: #e0e1dd;
 }
 
 .navlist a {
@@ -96,7 +95,7 @@ h1 {
 }
 
 .discover {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .tomorrow {
@@ -191,7 +190,7 @@ footer {
 
     .main-panel {
         padding: 3rem 0;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     .intro-paragraphs {
@@ -199,7 +198,7 @@ footer {
     }
 
     .discover {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .tomorrow {
@@ -253,7 +252,7 @@ footer {
 
     .main-panel {
         padding: 2rem 0;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .intro-paragraphs {
@@ -261,10 +260,11 @@ footer {
     }
 
     .discover {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .tomorrow {
+        max-width: 200px;
         margin-left: 1rem;
     }
 
