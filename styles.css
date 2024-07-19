@@ -42,6 +42,10 @@ header {
     color: #4a7856;
 }
 
+.navlist a:visited {
+    color: #e0e1dd;
+}
+
 /* Main section */
 
 h1 {
@@ -118,6 +122,10 @@ h1 {
 
 .flyover-link:hover {
     color: #4a7856;
+}
+
+.flyover-link:visited {
+    color: #293241;
 }
 
 /* Footer section */
