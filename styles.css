@@ -43,7 +43,7 @@ header {
 }
 
 .navlist a:hover {
-    color: #4a7856;
+    color: #98c1d9;
 }
 
 /* Main section */
@@ -79,7 +79,7 @@ h1 {
 .main-panel {
     display: flex;
     padding: 4rem 0 6rem;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .intro-paragraphs {
@@ -96,7 +96,7 @@ h1 {
 }
 
 .discover {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .tomorrow {
@@ -125,7 +125,7 @@ h1 {
 }
 
 .flyover-link:hover {
-    color: #4a7856;
+    color: #98c1d9;
 }
 
 /* Footer section */
