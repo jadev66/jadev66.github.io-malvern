@@ -38,12 +38,12 @@ header {
     color: #e0e1dd;
 }
 
-.navlist a:hover {
-    color: #4a7856;
-}
-
 .navlist a:visited {
     color: #e0e1dd;
+}
+
+.navlist a:hover {
+    color: #4a7856;
 }
 
 /* Main section */
@@ -120,12 +120,12 @@ h1 {
     color: #293241;
 }
 
-.flyover-link:hover {
-    color: #4a7856;
-}
-
 .flyover-link:visited {
     color: #293241;
+}
+
+.flyover-link:hover {
+    color: #4a7856;
 }
 
 /* Footer section */
