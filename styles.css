@@ -106,7 +106,7 @@ h1 {
     display: none;
 }
 
-.flyover-video {
+.flyover-video video {
     width: 40rem;
     height: 20rem;
 }
@@ -180,7 +180,7 @@ footer {
     }
 
     .welcome-intro {
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
 
     h1 {
@@ -205,7 +205,7 @@ footer {
         margin-left: 2rem;
     }
 
-    .flyover-video {
+    .flyover-video img {
         width: 30rem;
         height: 15rem;
     }
@@ -238,11 +238,11 @@ footer {
     }
 
     .clock {
-        width: 14rem;
+        width: 16rem;
     }
 
     .welcome-intro {
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
 
     h1 {
@@ -375,7 +375,7 @@ footer {
         display: none;
     }
 
-    .flyover-video {
+    .flyover-video img {
         width: 15rem;
         height: 8rem;
     }
