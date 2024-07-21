@@ -150,6 +150,27 @@ footer {
 
 /* Sub-pages */
 
+.image-overlay {
+    position: relative;
+}
+
+.mural {
+    position: absolute;
+    bottom: 10%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #e0e1dd;
+    /* height: auto; */
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.image-overlay:hover .mural {
+    opacity: 1;
+}
+
 .restaurants-first {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
