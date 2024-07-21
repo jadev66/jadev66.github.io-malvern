@@ -106,7 +106,7 @@ h1 {
     display: none;
 }
 
-.flyover-video video {
+.flyover-video-link img {
     width: 40rem;
     height: 20rem;
 }
@@ -243,7 +243,7 @@ footer {
         margin-left: 2rem;
     }
 
-    .flyover-video img {
+    .flyover-video-link img {
         width: 30rem;
         height: 15rem;
     }
@@ -482,7 +482,7 @@ footer {
         display: none;
     }
 
-    .flyover-video img {
+    .flyover-video-link img {
         width: 15rem;
         height: 8rem;
     }
