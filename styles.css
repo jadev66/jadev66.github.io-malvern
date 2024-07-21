@@ -153,31 +153,35 @@ footer {
 .restaurants-first {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 30rem 1fr;
+    grid-template-rows: 36rem 1fr;
     text-align: center;
     align-items: center;
-    margin: 8rem 3rem;
+    margin: 10rem 3rem;
 }
 
 .restaurants-first img {
     width: 100%;
     height: 100%;
-    max-height: 30rem;
+    max-height: 36rem;
+}
+
+.restaurants-first h2, .restaurants-second h2 {
+    margin: 1.5rem 0;
 }
 
 .restaurants-first p, .restaurants-second p {
     margin: 0;
 }
 
-.description {
-    margin: 0 6rem;
-    font-size: 1.3rem;
+.restaurants-first .description {
+    margin: 0 10rem;
+    font-size: 2rem;
 }
 
 .restaurants-second {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 40rem 1fr;
+    grid-template-rows: 54rem 1fr;
     text-align: center;
     align-items: center;
     margin: 0 3rem 8rem;
@@ -186,14 +190,89 @@ footer {
 .restaurants-second img {
     width: 100%;
     height: 100%;
-    max-height: 40rem;
+    max-height: 54rem;
+}
+
+.restaurants-second .description {
+    margin: 0 4rem;
+    font-size: 2rem;
 }
 
 footer {
     background-color: #293241;
 }
 
+.nametag-sub {
+    margin: 0;
+}
+
 /* Resizing */
+
+@media (max-width: 2399px) {
+
+    .restaurants-first {
+        grid-template-rows: 28rem 1fr;
+        margin: 8rem 3rem;
+    }
+    
+    .restaurants-first img {
+        max-height: 28rem;
+    }
+            
+    .restaurants-first .description {
+        margin: 0 8rem;
+        font-size: 1.6rem;
+    }
+    
+    .restaurants-second {
+        grid-template-rows: 42.5rem 1fr;
+        margin: 0 3rem 8rem;
+    }
+    
+    .restaurants-second img {
+        max-height: 42.5rem;
+    }
+    
+    .restaurants-second .description {
+        margin: 0 3rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 1899px) {
+
+    .restaurants-first {
+        grid-template-rows: 24rem 1fr;
+        margin: 6rem 3rem;
+    }
+    
+    .restaurants-first img {
+        max-height: 24rem;
+    }
+    
+    .restaurants-first h2, .restaurants-second h2 {
+        margin: 1rem 0;
+    }
+        
+    .restaurants-first .description {
+        margin: 0 6rem;
+        font-size: 1.4rem;
+    }
+    
+    .restaurants-second {
+        grid-template-rows: 35rem 1fr;
+        margin: 0 3rem 8rem;
+    }
+    
+    .restaurants-second img {
+        max-height: 35rem;
+    }
+    
+    .restaurants-second .description {
+        margin: 0 2rem;
+        font-size: 1.4rem;
+    }
+}
 
 @media (max-width: 1599px) {
 
@@ -206,7 +285,7 @@ footer {
     }
 
     .navlist li {
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 2.7rem;
     }
 
     h1 {
@@ -253,26 +332,35 @@ footer {
     }
 
     .restaurants-first {
-        grid-template-rows: 20rem 1fr;
-        margin: 6rem 3rem;
+        grid-template-rows: 17rem 1fr;
+        margin: 5rem 3rem;
     }
     
     .restaurants-first img {
-        max-height: 20rem;
+        max-height: 17rem;
     }
     
-    .description {
-        margin: 0 2rem;
-        font-size: 1.1rem;
+    .restaurants-first h2, .restaurants-second h2 {
+        margin: 0.8rem 0;
+    }
+
+    .restaurants-first .description {
+        margin: 0 4rem;
+        font-size: 1.2rem;
     }
     
     .restaurants-second {
-        grid-template-rows: 30rem 1fr;
-        margin: 0 3rem 6rem;
+        grid-template-rows: 24rem 1fr;
+        margin: 0 3rem 5rem;
     }
     
     .restaurants-second img {
-        max-height: 30rem;
+        max-height: 24rem;
+    }
+
+    .restaurants-second .description {
+        margin: 0 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -287,7 +375,7 @@ footer {
     }
 
     .navlist li {
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 1.9rem;
     }
 
     .intro {
@@ -328,31 +416,39 @@ footer {
         height: 22rem;
     }
 
-    .nametag-main {
+    .nametag-main, .nametag-sub {
         font-size: 0.9rem;
     }
 
     .restaurants-first {
-        grid-template-rows: 16rem 1fr;
-        margin: 3rem;
+        grid-template-rows: 12rem 1fr;
+        margin: 4rem 3rem;
     }
     
     .restaurants-first img {
-        max-height: 16rem;
+        max-height: 12rem;
     }
     
-    .description {
-        margin: 0 1rem;
+    .restaurants-first h2, .restaurants-second h2 {
+        margin: 0.5rem 0;
+    }
+
+    .restaurants-first .description {
+        margin: 0 2rem;
         font-size: 0.9rem;
     }
     
     .restaurants-second {
-        grid-template-rows: 24rem 1fr;
-        margin: 4rem 3rem 6rem;
+        grid-template-rows: 18rem 1fr;
     }
     
     .restaurants-second img {
-        max-height: 24rem;
+        max-height: 18rem;
+    }
+
+    .restaurants-second .description {
+        margin: 0 1rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -404,38 +500,47 @@ footer {
         height: 16rem;
     }
     
-    .nametag-main {
+    .nametag-main, .nametag-sub {
         font-size: 0.8rem;
     }
 
     .restaurants-first {
-        grid-template-rows: 12rem 1fr;
-        margin: 2rem;
+        grid-template-rows: 9rem 1fr;
+        margin: 3rem 1rem;
     }
     
     .restaurants-first img {
-        max-height: 12rem;
+        max-height: 9rem;
     }
     
-    .description {
-        margin: 0 0.5rem;
+    .restaurants-first h2, .restaurants-second h2 {
+        margin: 0.3rem 0;
+    }
+
+    .restaurants-first .description {
+        margin: 0 1rem;
         font-size: 0.7rem;
     }
     
     .restaurants-second {
-        grid-template-rows: 20rem 1fr;
-        margin: 0 2rem 4rem;
+        grid-template-rows: 12rem 1fr;
+        margin: 0 1rem 3rem;
     }
     
     .restaurants-second img {
-        max-height: 20rem;
+        max-height: 12rem;
+    }
+
+    .restaurants-second .description {
+        margin: 0 0.9rem;
+        font-size: 0.7rem;
     }
 }
 
 @media (max-width: 599px) {
 
     .stretch-top {
-        height: 16rem;
+        height: 18rem;
     }
 
     .navbar {
@@ -494,29 +599,39 @@ footer {
         height: 10rem;
     }
 
-    .nametag-main {
+    .nametag-main, .nametag-sub {
         font-size: 0.5rem;
     }
 
     .restaurants-first {
-        grid-template-rows: 10rem 1fr;
-        margin: 1rem 1rem 0;
+        grid-template-rows: 5rem 1fr;
+        margin: 2rem 0;
     }
     
     .restaurants-first img {
-        max-height: 14rem;
+        max-height: 5rem;
     }
-        
+
+    .restaurants-first .description {
+        margin: 0 1rem;
+        font-size: 0.5rem;
+    }
+
     .description p {
         display: none;
     }
 
     .restaurants-second {
-        grid-template-rows: 16rem 1fr;
-        margin: 0 1rem 2rem;
+        grid-template-rows: 7rem 1fr;
+        margin: 0 0 2rem;
     }
     
     .restaurants-second img {
-        max-height: 16rem;
+        max-height: 7rem;
+    }
+
+    .restaurants-second .description {
+        margin: 0 1rem;
+        font-size: 0.5rem;
     }
 }
