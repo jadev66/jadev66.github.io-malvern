@@ -158,16 +158,6 @@ footer {
     position: relative;
 }
 
-.first-clock-picture {
-    width: 35%;
-    height: 40rem;
-}
-
-.second-clock-picture {
-    width: 65%;
-    height: 40rem;
-}
-
 .overlay {
     position: absolute;
     bottom: 10%;
@@ -183,6 +173,8 @@ footer {
 .image-overlay:hover .overlay {
     opacity: 1;
 }
+
+/* Restaurants and Shops pages */
 
 .restaurants-first {
     display: grid;
@@ -232,6 +224,18 @@ footer {
     font-size: 2rem;
 }
 
+/* Parks page */
+
+.first-clock-picture {
+    width: 35%;
+    height: 40rem;
+}
+
+.second-clock-picture {
+    width: 65%;
+    height: 40rem;
+}
+
 .park-pictures {
     display: flex;
     flex-direction: column;
@@ -251,6 +255,8 @@ footer {
     height: 40rem;
     margin: 0 0 3rem;
 }
+
+/* Sub pages footer */
 
 footer {
     background-color: #293241;
