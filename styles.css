@@ -247,6 +247,15 @@ footer {
     font-size: 3rem;
 }
 
+.events h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.events img {
+    width: 100%;
+}
+
 /* Parks, Events pages */
 
 .first-header-picture {
@@ -682,6 +691,10 @@ footer {
         margin: 0 1rem;
         font-size: 1.8rem;
     }
+
+    .events h2 {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 599px) {
@@ -804,9 +817,13 @@ footer {
         display: block;
         margin: 2rem;
     }
-        
+    
     .churches h2 {
         margin: 1rem 0.6rem;
+    }
+
+    .events h2 {
+        font-size: 1.6rem;
     }
 }
 
