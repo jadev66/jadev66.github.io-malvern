@@ -775,12 +775,8 @@ footer {
     }
 
     .restaurants-first .description {
-        margin: 0 1rem;
-        font-size: 0.5rem;
-    }
-
-    .description p {
-        display: none;
+        margin: 0 0.6rem;
+        font-size: 0.4rem;
     }
 
     .restaurants-second {
@@ -793,8 +789,8 @@ footer {
     }
 
     .restaurants-second .description {
-        margin: 0 1rem;
-        font-size: 0.5rem;
+        margin: 0 0.5rem;
+        font-size: 0.4rem;
     }
     
     .first-header-picture {
