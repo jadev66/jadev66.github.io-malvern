@@ -174,7 +174,7 @@ footer {
     opacity: 1;
 }
 
-/* Restaurants and Shops pages */
+/* Restaurants, Shops pages */
 
 .restaurants-first {
     display: grid;
@@ -224,14 +224,37 @@ footer {
     font-size: 2rem;
 }
 
-/* Parks page */
+/* Church page */
 
-.first-clock-picture {
+.churches {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 120rem 120rem;
+    grid-row-gap: 1rem;
+    text-align: center;
+    align-items: center;
+    margin: 8rem 0 8rem 8rem;
+}
+
+.churches img {
+    width: 100%;
+    height: 100%;
+    max-height: 120rem;
+}
+
+.churches h2 {
+    margin: 0 4rem;
+    font-size: 3rem;
+}
+
+/* Parks, Events pages */
+
+.first-header-picture {
     width: 35%;
     height: 40rem;
 }
 
-.second-clock-picture {
+.second-header-picture {
     width: 65%;
     height: 40rem;
 }
@@ -332,6 +355,20 @@ footer {
         margin: 0 2rem;
         font-size: 1.4rem;
     }
+
+    .churches {
+        grid-template-rows: 100rem 100rem;
+        margin: 6rem 0 6rem 6rem;
+    }
+    
+    .churches img {
+        max-height: 100rem;
+    }
+    
+    .churches h2 {
+        margin: 0 3rem;
+        font-size: 2.8rem;
+    }
 }
 
 @media (max-width: 1599px) {
@@ -422,6 +459,20 @@ footer {
         margin: 0 1.5rem;
         font-size: 1.2rem;
     }
+
+    .churches {
+        grid-template-rows: 80rem 80rem;
+        margin: 4rem 0 4rem 4rem;
+    }
+    
+    .churches img {
+        max-height: 80rem;
+    }
+    
+    .churches h2 {
+        margin: 0 2rem;
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -509,6 +560,20 @@ footer {
     .restaurants-second .description {
         margin: 0 1rem;
         font-size: 0.9rem;
+    }
+
+    .churches {
+        grid-template-rows: 60rem 60rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+    
+    .churches img {
+        max-height: 60rem;
+    }
+    
+    .churches h2 {
+        margin: 0 1.5rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -602,6 +667,20 @@ footer {
     
     .park-pictures img {
         width: 90%;
+    }
+
+    .churches {
+        grid-template-rows: 40rem 40rem;
+        margin: 2rem 0 2rem 2rem;
+    }
+    
+    .churches img {
+        max-height: 40rem;
+    }
+    
+    .churches h2 {
+        margin: 0 1rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -703,11 +782,11 @@ footer {
         font-size: 0.5rem;
     }
     
-    .first-clock-picture {
+    .first-header-picture {
         display: none;
     }
 
-    .second-clock-picture {
+    .second-header-picture {
         width: 100%;
         height: 25rem;
     }
@@ -719,6 +798,15 @@ footer {
     .park-pictures img {
         width: 100%;
         height: 30rem;
+    }
+
+    .churches {
+        display: block;
+        margin: 2rem;
+    }
+        
+    .churches h2 {
+        margin: 1rem 0.6rem;
     }
 }
 
