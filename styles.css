@@ -249,6 +249,7 @@ footer {
 
 .events h2 {
     text-align: center;
+    margin: 3rem auto;
     font-size: 3rem;
 }
 
@@ -693,6 +694,7 @@ footer {
     }
 
     .events h2 {
+        margin: 2rem auto;
         font-size: 2rem;
     }
 }
