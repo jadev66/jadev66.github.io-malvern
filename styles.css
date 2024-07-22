@@ -247,7 +247,7 @@ footer {
     font-size: 3rem;
 }
 
-.events h2 {
+.events h2, .schools h2 {
     text-align: center;
     margin: 3rem auto;
     font-size: 3rem;
@@ -255,6 +255,16 @@ footer {
 
 .events img {
     width: 100%;
+}
+
+.mp-tall img {
+    width: 70%;
+    margin: 10% 15% 0;
+}
+
+.mp-wide img {
+    width: 90%;
+    padding: 0 5% 5%;
 }
 
 /* Parks, Events pages */
@@ -693,7 +703,7 @@ footer {
         font-size: 1.8rem;
     }
 
-    .events h2 {
+    .events h2, .schools h2 {
         margin: 2rem auto;
         font-size: 2rem;
     }
@@ -820,7 +830,7 @@ footer {
         margin: 1rem 0.6rem;
     }
 
-    .events h2 {
+    .events h2, .schools h2 {
         font-size: 1.6rem;
     }
 }
