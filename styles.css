@@ -221,7 +221,7 @@ footer {
     font-size: 1.5vw;
 }
 
-/* Church page */
+/* Church, School pages */
 
 .churches {
     display: grid;
@@ -243,27 +243,33 @@ footer {
     font-size: 2vw;
 }
 
-.events h2, .schools h2 {
+.schools {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    margin: 3rem auto;
-    font-size: 3rem;
+    align-items: center;
+    margin: 5% 0 1% 5%;
 }
 
-.events img {
-    width: 100%;
+.mp-tall-info {
+    width: 75%;
+}
+
+.schools h2, .schools p {
+    margin: 5% 15%;
+    font-size: 2vw;
 }
 
 .mp-tall img {
-    width: 70%;
-    margin: 5% 15% 0;
+    width: 100%;
 }
 
 .mp-wide img {
     width: 90%;
-    padding: 0 5% 5%;
+    margin: 0 5% 5% 5%;
 }
 
-/* Parks, Events pages */
+/* Park, Event pages */
 
 .first-header-picture {
     width: 35%;
@@ -293,6 +299,16 @@ footer {
     width: 70%;
     height: 40rem;
     margin: 0 0 3rem;
+}
+
+.events h2 {
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 3rem;
+}
+
+.events img {
+    width: 100%;
 }
 
 /* Sub pages footer */
@@ -446,7 +462,7 @@ footer {
         width: 90%;
     }
 
-    .events h2, .schools h2 {
+    .events h2 {
         margin: 2rem auto;
         font-size: 2rem;
     }
@@ -536,7 +552,11 @@ footer {
         margin: 1rem 2rem;
     }
 
-    .events h2, .schools h2 {
+    .schools h2, .schools p {
+        margin: 0.5rem 1rem;
+    }
+
+    .events h2 {
         font-size: 1.6rem;
     }
 }
